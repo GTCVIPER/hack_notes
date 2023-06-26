@@ -24,7 +24,7 @@
 
 # 二、行文规范
 
-![dff](D:\hack_notes\assets\屏幕截图 2023-04-05 144830.png)
+<img src="https://raw.githubusercontent.com/GTCVIPER/pic/master/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-04-05%20144854.png" style="zoom:67%;" />
 
 行文逻辑和形式，要服务于更好地呈现内容，为此建议考虑如下行文规范：
 
