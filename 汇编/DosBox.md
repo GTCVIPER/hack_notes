@@ -78,7 +78,21 @@ debug
 
 CS:IP --> `073F:0100` 
 
-![image-20230816171842555](D:\hack_notes\汇编\assets\image-20230816171842555.png)
+`a 073f:0100` 向内存写入 汇编语句
 
+![image-20230818135457959](D:\hack_notes\汇编\assets\image-20230818135457959.png)
 
+T 命令逐个运行 之前的汇编语句，并显示寄存器情况
+
+![image-20230818135651242](D:\hack_notes\汇编\assets\image-20230818135651242.png)
+
+`d 073f:0100` 查看内存里汇编语言对应的机器码
+
+![image-20230818135822655](D:\hack_notes\汇编\assets\image-20230818135822655.png)
+
+`u 073f:0100` 将 内存里汇编语言对应的机器码 翻译成 对应的汇编语句
+
+![image-20230818140113525](D:\hack_notes\汇编\assets\image-20230818140113525.png)
+
+<font size=5 color=green>总之，Debug 工具中的 常用命令为</font> <font size=4 color=red>T，R，U，A，D</font>
 
