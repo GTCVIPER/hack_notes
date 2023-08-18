@@ -8,7 +8,7 @@ mount c d:masm  # 将 D 盘的 指定目录挂载到 C 盘
 dir # 查看当前目录
 ```
 
-![image-20230816151736278](D:\hack_notes\汇编\assets\image-20230816151736278.png)
+![image-20230816151736278](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816151736278.png)
 
 <font size=5 color=gree>里面含有 调试 汇编程序的常用工具</font>
 
@@ -24,7 +24,7 @@ debug
 -r ax  # 更改 ax 寄存器里的值，执行会提示输入 ax 的值
 ```
 
-![image-20230816152843738](D:\hack_notes\汇编\assets\image-20230816152843738.png)
+![image-20230816152843738](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816152843738.png)
 
 ```cmd
 debug
@@ -36,11 +36,11 @@ debug
 -d 0000:0000 f # [-d 段地址:偏移地址 (出字符个数+1 十六进制数)], 从地址 0000:0000 开始，输出 16 个字符的内容
 ```
 
-![image-20230816154303428](D:\hack_notes\汇编\assets\image-20230816154303428.png)
+![image-20230816154303428](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816154303428.png)
 
-![image-20230816154343973](D:\hack_notes\汇编\assets\image-20230816154343973.png)
+![image-20230816154343973](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816154343973.png)
 
-![image-20230816154438896](D:\hack_notes\汇编\assets\image-20230816154438896.png)
+![image-20230816154438896](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816154438896.png)
 
 ![image-20230816154859152](D:\hack_notes\汇编\assets\image-20230816154859152.png)
 
@@ -52,9 +52,9 @@ debug
 -e 0000:0000 # 修改 0000:0000 地址的值，回车会依次定位到指定位置的值
 ```
 
-![image-20230816164759361](D:\hack_notes\汇编\assets\image-20230816164759361.png)
+![image-20230816164759361](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816164759361.png)
 
-![image-20230816164929186](D:\hack_notes\汇编\assets\image-20230816164929186.png)
+![image-20230816164929186](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816164929186.png)
 
 ```cmd
 debug
@@ -74,25 +74,25 @@ debug
 -u CS值:IP值 # 将内存中的机器指令翻译成汇编指令
 ```
 
-![image-20230816171250784](D:\hack_notes\汇编\assets\image-20230816171250784.png)
+![image-20230816171250784](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230816171250784.png)
 
 CS:IP --> `073F:0100` 
 
 `a 073f:0100` 向内存写入 汇编语句
 
-![image-20230818135457959](D:\hack_notes\汇编\assets\image-20230818135457959.png)
+![image-20230818135457959](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230818135457959.png)
 
 T 命令逐个运行 之前的汇编语句，并显示寄存器情况
 
-![image-20230818135651242](D:\hack_notes\汇编\assets\image-20230818135651242.png)
+![image-20230818135651242](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230818135651242.png)
 
 `d 073f:0100` 查看内存里汇编语言对应的机器码
 
-![image-20230818135822655](D:\hack_notes\汇编\assets\image-20230818135822655.png)
+![image-20230818135822655](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230818135822655.png)
 
 `u 073f:0100` 将 内存里汇编语言对应的机器码 翻译成 对应的汇编语句
 
-![image-20230818140113525](D:\hack_notes\汇编\assets\image-20230818140113525.png)
+![image-20230818140113525](https://raw.githubusercontent.com/GTCVIPER/pic/master/img/image-20230818140113525.png)
 
 <font size=5 color=green>总之，Debug 工具中的 常用命令为</font> <font size=4 color=red>T，R，U，A，D</font>
 
